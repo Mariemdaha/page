@@ -2,6 +2,7 @@ services:
   - type: web
     name: chefcode-landing-page
     env: node
+    rootDir: .
     buildCommand: npm install
     startCommand: npm start
     envVars:
